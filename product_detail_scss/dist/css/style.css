@@ -294,9 +294,11 @@ button.buyNow {
   padding: 10px;
   border-radius: 5px;
   margin-top: 3px;
+  background-color: #0984e3;
+  color: #fff;
 }
 button.buyNow:hover {
-  background-color: #0984e3;
+  background-color: #50a3e2;
   color: #fff;
 }
 .table-borderless > tbody > tr > td,
