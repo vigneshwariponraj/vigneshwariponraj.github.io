@@ -89,7 +89,7 @@ btn.addEventListener('click',function()
     console.log("button is Clicked");
 });
 
-*/
+
 
 
 function parent()
@@ -111,3 +111,19 @@ player.left < ball.right |  player.right > ball.left
 |
 |
 player.bottom > ball.top
+
+*/
+
+function f1(gf)
+{
+    return function(f)
+    {
+        return function(s)
+        console.log(`${gf}--${f}--${s}`);
+    }
+}
+f1("aaa")("bbb")("ccc");
+
+
+let f1 = (gf) => (f) => (s) => console.log(`${gf}-- ${f}--${s}`);
+f1 ("grand")("father")("son");
